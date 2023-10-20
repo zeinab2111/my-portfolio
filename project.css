@@ -1,0 +1,163 @@
+#about_me, #skills, #projects, #recommendations, #recom1{
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 50px;
+	clear: both;
+}
+#home{
+	background-color: purple;
+	height: 150px;
+}
+#info{
+	font-size: 10px;
+	margin-left: 20px;
+	color: white;
+}
+#home nav{
+	float: right;
+	margin-bottom: 35px;
+	margin-right: 20px;
+}
+#home nav button{
+	font-size: 15px;
+	color: white;
+	background-color: purple;
+	border-color: transparent;
+	padding: 20px;
+}
+#home nav button:hover{
+	cursor: pointer;
+	color: lightpink;
+
+}
+#info header{
+	font-size: 20px;
+	color: white;
+}
+header{
+	font-size: 30px;
+	font-weight: bold;
+	color: purple;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+}
+#about_me figure{
+	float: left;
+	padding: 50px;
+	width: 200px;
+}
+.header-content {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments côte à côte */
+  align-items: center; /* Aligner les éléments verticalement au centre */
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+#about_me p{
+	margin-top: -10px;
+}
+.text_content{
+	margin-top: 30px;
+}
+#about_me p{
+	color: black;
+	font-size: 15px;
+	margin-right: 30px;
+}
+
+#field{
+  display: flex; /* Utilisez Flexbox pour aligner horizontalement les fieldsets */
+  align-items: center; /* Centrez verticalement les éléments */
+  flex-wrap: wrap; /* Si vous avez beaucoup de compétences, cette propriété permet de les faire passer à la ligne suivante */
+}
+#skills fieldset{
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-radius: 3%;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	display: flex; /* Utilisez Flexbox pour le centrage vertical */
+  	flex-direction: column; /* Empilez les éléments verticalement */
+  	justify-content: center; /* Centrez verticalement les éléments */
+  	align-items: center; /* Centrez horizontalement les éléments */
+	padding: 20px;
+	margin: 30px;
+	text-align: center;
+}
+#pro{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#recom{
+  display: flex; /* Utilisez Flexbox pour aligner horizontalement les fieldsets */
+  align-items: center; /* Centrez verticalement les éléments */
+  flex-wrap: wrap; /* Si vous avez beaucoup de compétences, cette propriété permet de les faire passer à la ligne suivante */
+}
+#recom fieldset{
+	width: 280px;
+	height: 250px;
+	border-style: solid;
+	border-radius: 10%;
+	padding: 30px;
+	margin: 10px;
+	align-items: center;
+	font-size: 20px;
+}
+#recom_text{
+	display: flex; /* Utilisez Flexbox pour le centrage vertical */
+  	flex-direction: column; /* Empilez les éléments verticalement */
+  	justify-content: center; /* Centrez verticalement les éléments */
+  	align-items: center; /* Centrez horizontalement les éléments */
+}
+#recom_text fieldset{
+	width: 500px;
+	height: 250px;
+	border-color: transparent;
+}
+#recom_text legend{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: left;
+}
+#n{
+	margin-top: 10px;
+	width: 450px;
+}
+#m{
+	margin-top: 10px;
+	width: 450px;
+	height: 150px;
+}
+#recom_text button{
+	width: 100px;
+	border-color: purple;
+	border-width: 3px;
+	color: purple;
+}
+#recom_text button{
+	cursor: pointer;
+}
+#recom1 img{
+	float: right;
+	margin-bottom: 10px;
+	background-color: purple;s
+}
+hr{
+	width: 400px;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
